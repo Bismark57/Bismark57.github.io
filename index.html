@@ -1,9 +1,106 @@
-<html>
- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bismark Mensah — Aspiring Data Scientist</title>
+<style>
+  :root { --bg: #fafafa; --card: #ffffff; --ink: #1a1a1a; --muted: #5f6368; --accent: #1a73e8; --border: #e1e4e8; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background: var(--bg); color: var(--ink); line-height: 1.6; }
+  .wrap { max-width: 860px; margin: 0 auto; padding: 0 20px; }
+  header.hero { padding: 72px 0 48px; text-align: center; }
+  header.hero h1 { font-size: 2.4rem; letter-spacing: -0.5px; }
+  header.hero p.tag { color: var(--muted); font-size: 1.15rem; margin-top: 8px; }
+  .links { margin-top: 20px; }
+  .links a { display: inline-block; margin: 0 8px; padding: 9px 20px; border: 1px solid var(--border); border-radius: 999px; color: var(--ink); text-decoration: none; font-size: 0.95rem; background: var(--card); }
+  .links a:hover { border-color: var(--accent); color: var(--accent); }
+  section { margin: 40px 0; }
+  section h2 { font-size: 1.4rem; margin-bottom: 16px; padding-bottom: 8px; border-bottom: 2px solid var(--border); }
+  .card { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 20px 22px; margin-bottom: 14px; }
+  .card h3 { font-size: 1.1rem; margin-bottom: 6px; }
+  .card h3 a { color: var(--ink); text-decoration: none; }
+  .card h3 a:hover { color: var(--accent); }
+  .card p { color: var(--muted); font-size: 0.95rem; }
+  .tags { margin-top: 10px; }
+  .tags span { display: inline-block; background: #eef3fd; color: var(--accent); font-size: 0.8rem; padding: 3px 10px; border-radius: 999px; margin: 0 6px 6px 0; }
+  .skills { display: flex; flex-wrap: wrap; gap: 8px; }
+  .skills span { background: var(--card); border: 1px solid var(--border); padding: 6px 14px; border-radius: 999px; font-size: 0.9rem; }
+  ul.certs { list-style: none; }
+  ul.certs li { padding: 10px 0; border-bottom: 1px solid var(--border); font-size: 0.95rem; }
+  ul.certs li:last-child { border-bottom: none; }
+  ul.certs a { color: var(--accent); text-decoration: none; }
+  ul.certs a:hover { text-decoration: underline; }
+  ul.certs .issuer { color: var(--muted); font-size: 0.85rem; }
+  footer { text-align: center; color: var(--muted); font-size: 0.85rem; padding: 40px 0; }
+  @media (max-width: 600px) { header.hero h1 { font-size: 1.8rem; } }
+</style>
+</head>
 <body>
-  <h1>Bismark</h1>
-  <p>Welcome to your website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
+<div class="wrap">
+
+  <header class="hero">
+    <h1>Bismark Mensah</h1>
+    <p class="tag">Aspiring Data Scientist &mdash; Python, SQL &amp; Machine Learning</p>
+    <div class="links">
+      <a href="https://github.com/Bismark57">GitHub</a>
+      <a href="https://app.dataquest.io/profile/bismarkmensah">Dataquest</a>
+    </div>
+  </header>
+
+  <section>
+    <h2>About</h2>
+    <div class="card">
+      <p>I'm building a strong foundation in data science through hands-on projects and industry certifications.
+      My work focuses on data cleaning and wrangling, exploratory analysis, visualization, and machine learning
+      with Python and SQL. I'm currently pursuing further education in the field and growing this portfolio project by project.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Technical Skills</h2>
+    <div class="skills">
+      <span>Python</span><span>SQL</span><span>pandas</span><span>scikit-learn</span>
+      <span>TensorFlow</span><span>matplotlib</span><span>Jupyter</span>
+      <span>Data Cleaning</span><span>Exploratory Data Analysis</span>
+      <span>Data Visualization</span><span>Statistics</span><span>Machine Learning</span>
+    </div>
+  </section>
+
+  <section>
+    <h2>Featured Projects</h2>
+    <div class="card">
+      <h3><a href="https://github.com/Bismark57/dataquest_projects">Data Science Guided Projects</a></h3>
+      <p>14 hands-on projects covering SQL analysis, data cleaning, and visualization in Python &mdash;
+      including NYC school data, eBay car sales, US gun deaths, Fandango ratings, and college major earnings.</p>
+      <div class="tags"><span>Python</span><span>SQL</span><span>pandas</span><span>Jupyter</span></div>
+    </div>
+    <div class="card">
+      <h3><a href="https://github.com/Bismark57/Analytics-on-US-Deaths">Analytics on US Deaths</a></h3>
+      <p>Exploratory data analysis of US mortality data.</p>
+      <div class="tags"><span>Data Analysis</span><span>Python</span></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Certifications</h2>
+    <ul class="certs">
+      <li><a href="https://github.com/Bismark57/Udemy-Certificates/blob/main/2022%20Python%20for%20Machine%20Learning%20and%20Data%20Science.pdf">Python for Machine Learning and Data Science</a> <span class="issuer">&mdash; Udemy</span></li>
+      <li><a href="https://github.com/Bismark57/Udemy-Certificates/blob/main/Probability%20and%20Statistics%20for%20Business%20and%20Data%20Science.pdf">Probability and Statistics for Business and Data Science</a> <span class="issuer">&mdash; Udemy</span></li>
+      <li><a href="https://github.com/Bismark57/Udemy-Certificates/blob/main/Python%20for%20Finance%20and%20Algorithmic%20Trading.pdf">Python for Finance and Algorithmic Trading</a> <span class="issuer">&mdash; Udemy</span></li>
+      <li><a href="https://github.com/Bismark57/Codecademy-Certificates/blob/main/Machine_Learning_AI_Engineer_Career_Path.pdf">Machine Learning / AI Engineer Career Path</a> <span class="issuer">&mdash; Codecademy</span></li>
+      <li><a href="https://github.com/Bismark57/Codecademy-Certificates/blob/main/Deep_Learning_with_TensorFlow.pdf">Deep Learning with TensorFlow</a> <span class="issuer">&mdash; Codecademy</span></li>
+      <li><a href="https://github.com/Bismark57/Codecademy-Certificates/blob/main/Analyze_Business_Metrics_with_SQL.pdf">Analyze Business Metrics with SQL</a> <span class="issuer">&mdash; Codecademy</span></li>
+      <li><a href="https://github.com/Bismark57/Codecademy-Certificates/blob/main/SQL_course.pdf">SQL Course</a> <span class="issuer">&mdash; Codecademy</span></li>
+      <li><a href="https://github.com/Bismark57/Codecademy-Certificates/blob/main/Python3.pdf">Python 3</a> <span class="issuer">&mdash; Codecademy</span></li>
+      <li><a href="https://github.com/Bismark57/Dataquest-Link/blob/main/Bismark-Mensah--Machine-Learning-Intermediate-with-Python.pdf">Machine Learning Intermediate with Python</a> <span class="issuer">&mdash; Dataquest</span></li>
+    </ul>
+  </section>
+
+  <footer>
+    &copy; 2026 Bismark Mensah &middot; Built with GitHub Pages
+  </footer>
+
+</div>
 </body>
- 
 </html>
